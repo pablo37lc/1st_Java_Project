@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.media.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="note.MemoryControl">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="40.0" layoutX="38.0" stroke="SkyBlue" strokeType="INSIDE" strokeWidth="5.0" width="405.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" layoutX="38.0" layoutY="640.0" stroke="SkyBlue" strokeType="INSIDE" strokeWidth="5.0" width="405.0" />
+      <MenuButton layoutX="339.0" layoutY="5.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="계정관리">
+         <items>
+            <MenuItem fx:id="bLogOut" mnemonicParsing="false" text="로그아웃" />
+            <MenuItem fx:id="bLogEdit" mnemonicParsing="false" text="정보수정" />
+            <MenuItem fx:id="bSignOut" mnemonicParsing="false" text="계정삭제" />
+         </items>
+      </MenuButton>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="540.0" layoutX="35.0" layoutY="67.0" stroke="SkyBlue" strokeType="INSIDE" strokeWidth="5.0" width="410.0" />
+      <Button fx:id="bHome" layoutX="240.0" layoutY="5.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="홈" />
+      <Button fx:id="bRecord" layoutX="42.0" layoutY="5.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="기록" />
+      <Button fx:id="bEvent" layoutX="141.0" layoutY="5.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="검색" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="140.0" layoutX="35.0" layoutY="67.0" stroke="SkyBlue" strokeType="INSIDE" strokeWidth="5.0" width="140.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="140.0" layoutX="305.0" layoutY="67.0" stroke="SkyBlue" strokeType="INSIDE" strokeWidth="5.0" width="140.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="140.0" layoutX="170.0" layoutY="67.0" stroke="SkyBlue" strokeType="INSIDE" strokeWidth="5.0" width="140.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="140.0" layoutX="170.0" layoutY="202.0" stroke="SkyBlue" strokeType="INSIDE" strokeWidth="5.0" width="140.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="140.0" layoutX="305.0" layoutY="202.0" stroke="SkyBlue" strokeType="INSIDE" strokeWidth="5.0" width="140.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="140.0" layoutX="35.0" layoutY="202.0" stroke="SkyBlue" strokeType="INSIDE" strokeWidth="5.0" width="140.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="140.0" layoutX="35.0" layoutY="337.0" stroke="SkyBlue" strokeType="INSIDE" strokeWidth="5.0" width="140.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="140.0" layoutX="170.0" layoutY="337.0" stroke="SkyBlue" strokeType="INSIDE" strokeWidth="5.0" width="140.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="140.0" layoutX="305.0" layoutY="337.0" stroke="SkyBlue" strokeType="INSIDE" strokeWidth="5.0" width="140.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="140.0" layoutX="170.0" layoutY="472.0" stroke="SkyBlue" strokeType="INSIDE" strokeWidth="5.0" width="140.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="140.0" layoutX="35.0" layoutY="472.0" stroke="SkyBlue" strokeType="INSIDE" strokeWidth="5.0" width="140.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="140.0" layoutX="305.0" layoutY="472.0" stroke="SkyBlue" strokeType="INSIDE" strokeWidth="5.0" width="140.0" />
+      <Button fx:id="bLeft" layoutX="95.0" layoutY="645.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="80.0" text="이전" />
+      <Button fx:id="bRight" layoutX="305.0" layoutY="645.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="80.0" text="다음" />
+      <ImageView fx:id="image1" fitHeight="130.0" fitWidth="130.0" layoutX="40.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="image2" fitHeight="130.0" fitWidth="130.0" layoutX="175.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="image3" fitHeight="130.0" fitWidth="130.0" layoutX="310.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="image4" fitHeight="130.0" fitWidth="130.0" layoutX="40.0" layoutY="207.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="image5" fitHeight="130.0" fitWidth="130.0" layoutX="175.0" layoutY="207.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="image6" fitHeight="130.0" fitWidth="130.0" layoutX="310.0" layoutY="207.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="image7" fitHeight="130.0" fitWidth="130.0" layoutX="40.0" layoutY="342.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="image8" fitHeight="130.0" fitWidth="130.0" layoutX="175.0" layoutY="342.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="image9" fitHeight="130.0" fitWidth="130.0" layoutX="310.0" layoutY="342.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="image10" fitHeight="130.0" fitWidth="130.0" layoutX="40.0" layoutY="477.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="image11" fitHeight="130.0" fitWidth="130.0" layoutX="175.0" layoutY="477.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="image12" fitHeight="130.0" fitWidth="130.0" layoutX="310.0" layoutY="477.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="lPage" alignment="CENTER" layoutX="206.0" layoutY="655.0" prefWidth="70.0" text="0 page" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="note.EventControl">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="40.0" layoutX="38.0" stroke="SkyBlue" strokeType="INSIDE" strokeWidth="5.0" width="405.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="630.0" layoutX="38.0" layoutY="63.0" stroke="SkyBlue" strokeType="INSIDE" strokeWidth="5.0" width="405.0" />
+      <MenuButton layoutX="339.0" layoutY="5.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="계정관리">
+         <items>
+            <MenuItem fx:id="bLogOut" mnemonicParsing="false" text="로그아웃" />
+            <MenuItem fx:id="bLogEdit" mnemonicParsing="false" text="정보수정" />
+            <MenuItem fx:id="bSignOut" mnemonicParsing="false" text="계정삭제" />
+         </items>
+      </MenuButton>
+      <Button fx:id="bHome" layoutX="240.0" layoutY="5.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="홈" />
+      <Button fx:id="bRecord" layoutX="42.0" layoutY="5.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="기록" />
+      <Button fx:id="bMemory" layoutX="141.0" layoutY="5.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="보기" />
+      <TableView fx:id="tEvent" layoutX="43.0" layoutY="98.0" prefHeight="590.0" prefWidth="395.0">
+        <columns>
+          <TableColumn fx:id="tTitle" prefWidth="100.0" text="Title" />
+          <TableColumn fx:id="tNote" prefWidth="208.0" text="Note" />
+            <TableColumn fx:id="tDate" minWidth="0.0" prefWidth="85.0" text="Date" />
+        </columns>
+      </TableView>
+      <Button fx:id="bSearch" layoutX="368.0" layoutY="68.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="70.0" text="검색" />
+      <ChoiceBox fx:id="cSearch" layoutX="43.0" layoutY="68.0" prefHeight="30.0" prefWidth="70.0" />
+      <TextField fx:id="tSearch" layoutX="112.0" layoutY="68.0" prefHeight="30.0" prefWidth="257.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="note.ViewControl">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="40.0" layoutX="38.0" stroke="SkyBlue" strokeType="INSIDE" strokeWidth="5.0" width="405.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" layoutX="38.0" layoutY="640.0" stroke="SkyBlue" strokeType="INSIDE" strokeWidth="5.0" width="405.0" />
+      <MenuButton layoutX="339.0" layoutY="5.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="계정관리">
+        <items>
+          <MenuItem fx:id="bLogOut" mnemonicParsing="false" text="로그아웃" />
+          <MenuItem fx:id="bLogEdit" mnemonicParsing="false" text="정보수정" />
+            <MenuItem fx:id="bSignOut" mnemonicParsing="false" text="계정삭제" />
+        </items>
+      </MenuButton>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="405.0" layoutX="38.0" layoutY="68.0" stroke="SkyBlue" strokeType="INSIDE" strokeWidth="5.0" width="405.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="46.0" layoutX="38.0" layoutY="469.0" stroke="SkyBlue" strokeType="INSIDE" strokeWidth="5.0" width="405.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="105.0" layoutX="38.0" layoutY="508.0" stroke="SkyBlue" strokeType="INSIDE" strokeWidth="5.0" width="405.0" />
+      <TextArea fx:id="tNote" layoutX="43.0" layoutY="513.0" prefHeight="95.0" prefWidth="395.0" />
+      <Button fx:id="bEdit" layoutX="95.0" layoutY="645.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" text="편집" />
+      <TextField fx:id="tTitle" layoutX="43.0" layoutY="474.0" prefHeight="35.0" prefWidth="250.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Button fx:id="bHome" layoutX="240.0" layoutY="5.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="홈" />
+      <Button fx:id="bRecord" layoutX="42.0" layoutY="5.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="기록" />
+      <Button fx:id="bEvent" layoutX="141.0" layoutY="5.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="보기" />
+      <Button fx:id="bDelete" layoutX="285.0" layoutY="645.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" text="삭제" />
+      <ImageView fx:id="imageView" fitHeight="395.0" fitWidth="395.0" layoutX="43.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true" />
+      <DatePicker fx:id="datePicker" layoutX="388.0" layoutY="474.0" prefHeight="34.0" prefWidth="46.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="293.0" layoutY="474.0" stroke="WHITE" strokeType="INSIDE" width="120.0" />
+      <Label fx:id="lDate" alignment="CENTER" layoutX="293.0" layoutY="474.0" prefHeight="35.0" prefWidth="120.0" text="yyyy.mm.dd">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
