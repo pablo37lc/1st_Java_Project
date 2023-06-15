@@ -1,5 +1,7 @@
 # 1st_Java_Project
 
+<<Java, Java FX>>
+
 처음 만들어본 자바 프로그램.
 
 사진기반 기록 프로그램입니다.
